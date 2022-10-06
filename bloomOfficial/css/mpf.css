@@ -1,0 +1,273 @@
+/*  Things I need help with....
+
+app buttons on top and botttom nav,
+laptop picture needs to be centered,
+section2 needs a pink border with opacity,
+section 3 needs the magnifying glass and border styling
+
+*/
+:root {
+    --primColor: #26292e;
+    --sec1Color: #e7718b;
+    --sec2Color: #f4f4f6;
+    --sec3Color: #ffffff;
+    --btnColor: #3F4344;
+    --topHeaderFont: 'Butterfly Kids';
+    --font: 'Mukta', sans-serif;
+    --fontColor: #f3f4f6; 
+}
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styling */
+
+.header {
+    background-color: var(--primColor);
+    margin: auto;
+}
+
+h1 {
+    color: var(--fontColor);
+    font-family: var(--topHeaderFont);
+    font-size: 38px;
+    width: 60%;
+}
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav-socials {
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+    width: 30%;
+}
+
+.nav-socials li {
+    display: inline-block;
+}
+
+.nav-link {
+    color: var(--fontColor);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*  Main: Section 1 2 3 styling */
+/* section 1 styling */
+
+.section1 {
+    background-color: var(--sec1Color);
+    padding: 20px 0;
+}
+
+.sec1-content {
+    float: left;
+    width: 50%;
+}
+
+.section-header {
+    color: var(--fontColor);
+    font-family: var(--font);
+}
+
+.sec1-content p {
+    color: var(--fontColor);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.sec1-content, .sec1-image {
+    margin: 0;
+}
+
+.sec1-img {
+    padding-top: 10px;
+    float: right;
+}
+
+.section-img {
+    width: 100%;
+}
+
+/*  sec 1 buttons */
+
+.sec1-btn1 {
+    background-color: var(--btnColor);
+    color: var(--fontColor);
+    font-family: var(--font);
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.sec1-btn2 {
+    background-color: var(--btnColor);
+    color: var(--fontColor);
+    font-family: var(--font);
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.sec1-image {
+    float: right;
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 350px;
+}
+
+/* sec 2 styling */
+
+.section2 {
+    background-color: var(--sec2Color);
+    border-bottom: solid rgba(231, 113, 139, 0.5) 4px;
+    margin: 0;
+}
+
+.sec2-inner {
+    border-bottom: #e7718b;
+
+}
+/*  section 2 styling */
+
+.sec2-header {
+    font-family: var(--font);
+    color: #3F4344;
+    
+}
+
+.sec2-text {
+    font-family: sans-serif;
+    color: #BFBFC1;
+}
+
+.sec2-div {
+    width: 33%;
+    margin: 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+/*  section 3 styling */
+
+/* .section3 {
+    /* height: 350px; }*/
+
+.sec3-inner {
+    background-color: var(--sec3Color);
+    height: 350px;
+}
+
+/* .product styling */
+
+.product-section {
+    height: 350px;
+    width: 64%;
+    margin-right: 20px;
+}
+
+.product-div {
+    float: left;
+    margin: 0 90px 60px 0;
+}
+
+.product-div:nth-child(1) {
+    width: 200px;
+    height: 100px;
+    background-color: #26292e;
+    border: 8px solid #BFBFC1;
+}
+
+.product-div:nth-child(2) {
+    width: 200px;
+    height: 100px;
+    background-color: #26292e;
+    border: 8px solid #BFBFC1;
+}
+
+.product-div:nth-child(3) {
+    width: 200px;
+    height: 100px;
+    background-color: #26292e;
+    border: 8px solid #BFBFC1;
+}
+
+.product-div:nth-child(4) {
+    width: 200px;
+    height: 100px;
+    background-color: #26292e;
+    border: 8px solid #BFBFC1;
+}
+
+.testimony-section {
+    width: 33%;
+}
+
+.product-section, .testimony-section {
+    float: left;
+}
+
+.sec3-header {
+    color: #3F4344;
+    font-family: var(--font);
+}
+
+.quote {
+    color: #BFBFC1;
+    font-family: sans-serif;
+}
+
+.quoter {
+    font-weight: bold;
+    color: black;
+}
+
+/*  footer styling */
+
+.footer {
+    background-color: var(--primColor);
+    color: var(--fontColor);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.bottom-nav {
+    float: right;
+}
+
+.bottom-nav-socials .bottom-nav-item {
+    display: inline;
+}
+
+.bottom-nav li a {
+    color: var(--fontColor);
+    text-decoration: none;
+}
+
+.bottom-nav-socials {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.colophon {
+    display: inline-block;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.clear {
+clear: both;
+}
